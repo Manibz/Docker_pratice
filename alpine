@@ -1,0 +1,8 @@
+#use base image
+FROM alpine
+
+#install required software
+RUN apk add --update redis
+
+#specify startup command 
+CMD ["/usr/bin/redis-server --daemonize yes"]
