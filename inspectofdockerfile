@@ -1,0 +1,94 @@
+[
+    {
+        "Id": "sha256:2fda27ed8c625902695f2a65f40bdac267dbb2772e79d5e009ecd4199475bf4b",
+        "RepoTags": [
+            "entrypoint:v2"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:2d1876d7dd46d88e8871bbe3cd90062618710a420e6cdb0d6ea18b95219f7129",
+        "Comment": "",
+        "Created": "2022-09-12T05:54:13.034338624Z",
+        "Container": "a5de992d4e2329807f829fff92ba642241d39d721ef31e953d8e23ec3865e696",
+        "ContainerConfig": {
+            "Hostname": "a5de992d4e23",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "ENTRYPOINT [\"/bin/echo\" \"Hi, your ENTRYPOINT instruction in Exec form \"]"
+            ],
+            "Image": "sha256:2d1876d7dd46d88e8871bbe3cd90062618710a420e6cdb0d6ea18b95219f7129",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/echo",
+                "Hi, your ENTRYPOINT instruction in Exec form "
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "= Manibz"
+            }
+        },
+        "DockerVersion": "20.10.16",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Image": "sha256:2d1876d7dd46d88e8871bbe3cd90062618710a420e6cdb0d6ea18b95219f7129",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/echo",
+                "Hi, your ENTRYPOINT instruction in Exec form "
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "= Manibz"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 3995534,
+        "VirtualSize": 3995534,
+        "GraphDriver": {
+            "Data": {
+                "MergedDir": "/var/lib/docker/overlay2/8792637f24140726c7a1c9e5e468fbd6e6a92f081e70bfd7d76e370ac9968834/merged",
+                "UpperDir": "/var/lib/docker/overlay2/8792637f24140726c7a1c9e5e468fbd6e6a92f081e70bfd7d76e370ac9968834/diff",
+                "WorkDir": "/var/lib/docker/overlay2/8792637f24140726c7a1c9e5e468fbd6e6a92f081e70bfd7d76e370ac9968834/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:f566c57e6f2da2364c14195c832b922fd8f4813fd139b8fe45e3454c16e33975"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2022-09-12T11:24:13.066557219+05:30"
+        }
+    }
+]
+

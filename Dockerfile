@@ -1,3 +1,4 @@
-FROM ubuntu:latest
-RUN  apt update
-RUN apt-get install ruby-full -y
+FROM alpine:3.5
+LABEL maintainer = "Manibz"
+ENTRYPOINT  ["/bin/echo",  "Hi, your ENTRYPOINT instruction in Exec form "]
+
